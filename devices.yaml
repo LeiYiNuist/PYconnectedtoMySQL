@@ -1,0 +1,20 @@
+- devices:
+    platformName: Android
+    appPackage: com.xxxxxx.activities
+    appActivity: com.xxxxxx.activities.activity.init.InitActivity
+    deviceName: 127.0.0.1:62025
+    automationName: uiautomator2
+    noReset: True
+    udid: MKJNW18110003732
+    unicodeKeyboard: True
+    resetKeyboard: True
+- publish:
+    allow_btn: //*[@text='始终允许']
+    cancleBtn: //*[@resource-id='com.xxxxxx.activities:id/negativeButton']
+- vehicle:
+    btn_discovery: //*[@resource-id='com.xxxxxx.activities:id/btn_discovery']
+    iv_item_top_plugin_img: //*[@resource-id='com.xxxxxxx.activities:id/iv_item_top_plugin_img']
+    fragment_home_left_img: //*[@resource-id='com.xxxxxx.activities:id/fragment_home_left_img']
+    go_shimingrenzheng: //*[@text='去实名']
+    comfirbtn: //*[@class='android.widget.CheckBox']
+    webview: //*[@class='com.tencent.webkit.WebView']
